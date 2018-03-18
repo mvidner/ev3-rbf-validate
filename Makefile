@@ -1,5 +1,5 @@
 # Build a 32-bit program because the source relies on that in some places
-CFLAGS=-m32 -Wall -g3
+CFLAGS=-m32 -Wall -Wextra -g3
 LDFLAGS=-m32
 
 rbf-validate: rbf-validate.o validate.o
